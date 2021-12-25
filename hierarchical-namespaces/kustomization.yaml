@@ -1,0 +1,4 @@
+resources:
+- parent
+- child
+- grandchild

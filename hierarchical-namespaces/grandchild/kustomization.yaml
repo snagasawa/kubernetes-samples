@@ -1,0 +1,4 @@
+namespace: grandchild
+namePrefix: grandchild-
+resources:
+- ../base

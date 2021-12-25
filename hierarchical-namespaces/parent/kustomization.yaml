@@ -1,0 +1,4 @@
+namespace: parent
+namePrefix: parent-
+resources:
+- ../base
