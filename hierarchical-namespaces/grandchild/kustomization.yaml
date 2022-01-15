@@ -1,4 +1,6 @@
 namespace: grandchild
 namePrefix: grandchild-
 resources:
+- namespace.yaml
 - ../base
+

@@ -2,3 +2,5 @@ resources:
 - parent
 - child
 - grandchild
+- hierarchyconfiguration.yaml
+

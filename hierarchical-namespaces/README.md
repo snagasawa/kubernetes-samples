@@ -9,15 +9,11 @@ kubectl hns version
 
 kubectl apply -f https://github.com/kubernetes-sigs/hierarchical-namespaces/releases/download/v0.9.0/hnc-manager.yaml
 
-kubectl apply -f namespace.yaml
-kubectl apply -f subnamespaceanchor.yaml  # If you fail, try agian.
 kubectl apply -k .
 ```
 
 
 # Cleanup
 ```
-kubectl delete subns -A -all
 kubectl delete -k .
-kubectl delete -f namespace.yaml
 ```

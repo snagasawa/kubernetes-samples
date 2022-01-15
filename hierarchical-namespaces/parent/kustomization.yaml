@@ -1,4 +1,6 @@
 namespace: parent
 namePrefix: parent-
 resources:
+- namespace.yaml
 - ../base
+
